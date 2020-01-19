@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/11/2019, 10:48:11
+    Author     : Esveraldo
+*/
+
+.box
+{
+    max-width:800px;
+    margin:0 auto;
+}
+.active_tab1
+{
+    background-color:#fff;
+    color:#333;
+    font-weight: 600;
+}
+.inactive_tab1
+{
+    background-color: #f5f5f5;
+    color: #333;
+    cursor: not-allowed;
+}
+.has-error
+{
+    border-color:#cc0000;
+    background-color:#fff;
+}
+.form-check-label {
+    font-weight: normal;
+}
+.nowrap {
+    white-space: nowrap;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 550px) {
+    #responsive {
+        display: none;
+    }
+}
+
+.navbar-inverse
+{
+    /*background:#00796B;*/
+    background:#000;
+    border-bottom-color: #004D40;
+}
+.navbar-inverse .navbar-nav>li>a,.navbar-inverse .navbar-brand,.navbar-inverse .navbar-nav>.dropdown>a .caret
+{
+    color: #9d9d9d;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-nav>li>.dropdown-menu
+{
+    background:#4DB6AC;
+}
+.nav-pills>li>a
+{
+    color: #303F9F;
+}
+
+.nav>li>a:hover, .nav>li>a:focus
+{
+    background-color: #FFFFFF;
+}
+
+
+
