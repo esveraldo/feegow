@@ -18,7 +18,7 @@ $(document).ready(function () {
 
         }).done(function (response) {
             console.log(response);
-            $(".resposta").html('<div class="alert alert-success">Dados gravados com sucesso! </a></strong></div>');
+            $(".resposta").html('<div class="alert alert-success">Agendado com sucesso! </a></strong></div>');
         })
                 .fail(function (response) {
                     console.log(response);
